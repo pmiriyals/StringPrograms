@@ -44,7 +44,7 @@ namespace LongestCommonSubstring
                 }
             }
             Console.WriteLine("Length of lcs = {0}\nLongest Common Substring = {1}", max, getLCS(lcs, mi, mj, a, ""));
-            print2D(lcs);
+            //print2D(lcs);
         }
 
         static string getLCS(int[,] lcs, int i, int j, string a, string s)
@@ -71,7 +71,7 @@ namespace LongestCommonSubstring
         {
             string a = "this is longest common substring";
             string b = "this is not longest common subsequence";
-            LCS(a, b);
+            LCS(a, b);        
             Console.ReadLine();
         }
     }

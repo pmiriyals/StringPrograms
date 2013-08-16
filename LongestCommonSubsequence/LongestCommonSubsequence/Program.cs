@@ -70,6 +70,7 @@ namespace LongestCommonSubsequence
             string a = "AGGTAB";
             string b = "GXTXAYB";
             LongestCommonSubsequence(a, b);
+            lcs(a, b);
             Console.ReadLine();
         }
     }
